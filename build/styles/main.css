@@ -1,2 +1,2 @@
-body{background-color:#b13}
+*{margin:0;padding:0;box-sizing:border-box}body{background-color:#b13}header{background-color:#181616;padding:20px}header .container{width:1000px;margin:0 auto;color:#ccc;display:flex;justify-content:space-between;align-items:center}header .container ul li{display:inline;margin-left:20px;padding:5px}header .container ul li a{color:#ccc;text-decoration:none;font-weight:bold}header .container ul li:hover{background-color:#a6a6a6}
 /*# sourceMappingURL=maps/main.css.map */

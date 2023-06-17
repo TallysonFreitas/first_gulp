@@ -1,5 +1,37 @@
 @use 'variaveis';
+@use 'reset';
 
 body{
     background-color: variaveis.$corPrincipal;
+}
+
+header{
+    background-color: rgb(24, 22, 22);
+    padding: 20px;
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+        color: #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        ul{
+            li{
+                display: inline;
+                margin-left: 20px;
+                padding: 5px;
+                a{
+                    color: #ccc;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+                &:hover{
+                    background-color: darken(#ccc,15);
+                }
+            }
+        }
+
+    }
 }
